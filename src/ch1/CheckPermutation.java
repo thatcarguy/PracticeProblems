@@ -5,10 +5,8 @@ package ch1;
  *
  */
 public class CheckPermutation {
-	/*
-	 * 1. Determine which String of the two Strings is larger. 
-	 * 2. Loop through larger String compare with the smaller. 
-	 */
+	//TODO: Implement with Extra Space to improve run time.
+		
 	/**
 	 * 
 	 * @param String a

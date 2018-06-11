@@ -5,14 +5,16 @@ import java.util.Map.Entry;
 
 /**
  * Check to see if the given String is a permutation of a palindrome.
- * @author Duke
+ * @author Zack W
  *
  */
 public class PalindromePermutation {
 	
 	/**
 	 * Method will determine if a given String is permutation of Palindrome.
-	 * Put all characters into hashmap and count their occurence with helper method. 
+	 * Put all characters into hashmap and count their occurence with helper method.
+	 * This solution uses O(n) extra space with the HashMap. 
+	 * It will be linear O(n) for run time complexity since we are only iterating twice.   
 	 * @param String input
 	 */
 	protected static void palindrome(String input){
